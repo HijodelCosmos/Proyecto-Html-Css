@@ -1,0 +1,86 @@
+
+.__contact--background{
+    background: linear-gradient(to bottom, #d6d1bd 0%, #29442d 100%);
+    margin: 0px;
+    padding:20px;
+
+}
+
+.__contact__form{
+    color: $white;
+    text-shadow: 1px 1px rgb(34, 34, 34);
+    font-size: 1.2rem;
+    background-color: $black;
+    border-radius: 2.5rem;
+    box-shadow: 5px 7px 19px 1px rgba(0,0,0,0.63);;
+}
+.__form__picture{
+    background-image: url(../assets/img/pexels-pixabay-62289.jpg);
+    width: 300px;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-top-left-radius: 2.5rem;
+    border-bottom-left-radius: 2.5rem;
+}
+.__form__checkbox{
+    list-style: none;
+}
+.__form__left{
+    width: 250px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;  
+}
+
+.__form__title{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    z-index: 15;
+}
+
+.__form__input--style{
+    padding: 5px 0;
+    color: $white;
+    background: transparent;
+    border-radius: .3em;
+    width: 225px;
+    margin: 5px;
+    display: block;
+    ::placeholder {
+        color: $white;
+        opacity: .8;
+        padding-left: 5px;
+      }
+}
+.__form__input--style::placeholder {
+    color: $white;
+    opacity: .9;
+  }
+.__form__select--style{
+    padding: 5px 0;
+    color: $white;
+    background: transparent;
+    border-radius: .3em;
+    width: 225px;
+    margin: 5px;
+    display: block;
+    text-align: center;
+    option{
+        color: $black;
+    }
+}
+.__form__textarea--style{
+    padding: 20px;
+    color: $white;
+    background: transparent;
+    border-radius: .3em;
+    width: 500px;
+}
+.__form__textarea--style::placeholder{
+    color: $white;
+    opacity: .9;
+  }

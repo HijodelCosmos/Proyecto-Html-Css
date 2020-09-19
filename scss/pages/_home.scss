@@ -1,0 +1,174 @@
+/*<<<<<<<<<CONTENIDO ESPECIFICO DEL INDEX>>>>>>>>>>*/
+
+
+/*----HEADER(NO OLVIDAR OPTIMIZAR!)----*/
+.__header__nav{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    z-index: 10;
+    margin: 0px;
+
+}
+.__header__nav__ul{
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    padding-left: 0px;
+    margin: 10px;
+    li{
+        display: inline-block;
+        list-style: none;
+        margin: 0px 10px;
+    }
+}
+.__header__icon{
+    font-size: 2.5em;
+    color: $icon_color;
+    text-shadow: 1px 1px rgb(34, 34, 34);
+}
+.__header__icon:hover{
+    animation-name: swing;
+    animation-play-state: running;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+/*------------------*/
+
+
+/*HERO*/
+.__hero__title{
+    position: absolute;
+    z-index: 15;
+    top: 20vh;
+    font-family:'Bebas Neue', cursive;
+    width: 100vw;
+    text-shadow: $text-shadow-title;
+}
+@media only screen and (min-width: 768px) {
+    .__hero__title--size{
+        font-size: 10rem;}
+}
+@media only screen and (max-width: 768px) {
+    .__hero__title--size{
+        font-size: 7rem;}
+}
+@media only screen and (max-width: 350px) {
+    .__hero__title--size{
+        font-size: 5.5rem;}
+}
+
+/*---SLIDE DEL INDEX---*/
+.carousel-item{ /*<---Si lo cambio sobrescribo Bootstrap*/
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-shadow: 1.5px 1.5px black;
+}
+.palm{
+    background-position-x: right;
+}
+.__carousel__description{
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+@media only screen and (max-width: 768px) {
+    .__carousel__description{
+        font-size: 2.5rem;}
+}
+/*-----------------------*/
+
+
+/*<<<<<PORTFOLIO>>>>>*/
+.subtittle{
+    font-size: 3.5rem;
+    display: block;
+    max-width: 30rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.__portfolio{
+    background-color: $portfolio-background;
+    color: $portfolio-font-color;
+    margin: 0px;
+    padding: 0px;
+}
+.__portfolio__box{
+    img{
+        width:100%;
+        height:auto;
+    }
+    .__portfolio__box__content{
+        width:100%;
+        height:100%;
+        position:absolute;
+        top:0;
+        left:0;
+        transition:all .5s ease 0s;
+        text-align: center;
+    }
+    .__portfolio__box__content:before{
+        border-left:1px solid #040404;
+        border-top:1px solid #040404;
+        top:19px;left:19px
+    }
+    .__portfolio__box__content:after{
+        border-bottom:1px solid #040404;
+        border-right:1px solid #040404;
+        bottom:19px;right:19px
+    }
+    .__portfolio__box__content:after,.__portfolio__box__content:before{
+            content:"";
+            width:50px;
+            height:50px;
+            position:absolute;
+            opacity:0;
+            transform:scale(1.5);
+            transition:all .6s ease .3s
+    }
+    .__portfolio__box__label{
+        font-size:22px;
+        margin:0;
+        position:relative;
+        top:0;
+        opacity:0;
+        transition:all 1s ease 10ms;
+        color: black;
+    }
+    .__portfolio__box__label:after{
+        content:"";
+        width:0;
+        height:1px;
+        background:#040404;
+        position:absolute;
+        bottom:-8px;
+        left:0;
+        right:0;
+        margin:0 auto;
+        transition:all 1s ease 0s;
+    }
+}
+.__portfolio__box:hover{
+    .__portfolio__box__content{
+        background-color:rgba(181, 181, 181, 0.6)}
+        opacity: 0.8;
+    .__portfolio__box__label{
+        top:39%;
+        opacity:1;
+        transition:all .5s cubic-bezier(1,-.53,.405,1.425) 10ms;
+    }
+    .__portfolio__box__label:after{
+        width:80%;
+        transition:all 1s ease .8s;
+    }
+    .__portfolio__box__content:after,.__portfolio__box__content:before{
+            opacity:1;
+            transform:scale(1);
+    }
+}

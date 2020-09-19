@@ -1,0 +1,104 @@
+
+
+html body{
+    color: $hero_font_color;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*HEADER CONTINUAR AQUI!*/
+.__header{
+    background-color:$header-background;
+    width: 100vw;
+    height: auto;
+
+    .__header__title,.__header__title:hover,.__header__title:visited{
+        font: $header-title-font;
+        color: $hero_font_color;
+        text-decoration: none;}
+
+    .__header__list{
+        list-style: none;
+        margin: 0px;
+        li{
+            display: inline-block;
+            font-size: 2.3rem;
+            margin: 5px 10px 5px;
+            i{
+                color: $icon_color;
+                
+            }
+            i:hover{
+                animation-name: swing;
+                animation-play-state: running;
+                animation-duration: 1s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+            }
+        }
+    }
+}
+
+/*<<<<<SEPARADORES>>>>>*/
+
+@each $n-separador in 1,2,3 {
+    .__separador-#{$n-separador}{ 
+        Background-image: url(../assets/img/sep-#{$n-separador}.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        z-index: 0;
+        h2{
+            font: $separador_font;
+            color: $separador_font_color;
+            text-shadow: $text-shadow-title;
+            display: block;
+            max-width: 30rem;
+        }
+        @media only screen and (max-width: 576px) {
+            .__separador-#{$n-separador}{
+                h2{font-size: 3rem;}
+            }
+        }
+    }
+}
+
+.__separador-2{
+    background-attachment: fixed;
+}
+
+
+/*<<<<<<<FOOTER>>>>>>>*/
+.__footer{
+    padding-top: 10px;
+    background-color:$footer-background;
+    .breadcrumb{
+        background-color: transparent;
+        font-size: 1.5rem;
+        a, a:hover, a:visited, a:focus{
+            color: $white;
+        }
+    }
+    .__footer__list{
+        list-style: none;
+        li{
+            display: inline-block;
+            font-size: 2.3rem;
+            margin: 10px 15px 10px;
+            i{
+                color: $icon_color;
+                
+            }
+            i:hover{
+                animation-name: swing;
+                animation-play-state: running;
+                animation-duration: 1s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+            }
+        }
+    }
+    
+}
