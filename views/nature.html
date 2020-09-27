@@ -90,18 +90,106 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle"
-                        type="button" id="dropdownMenu1" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                  <a class="dropdown-item" href="#!">Action</a>
-                  <a class="dropdown-item" href="#!">Another action</a>
+
+
+        <!--~~~GALLERY~~~-->
+
+        <main class="container">
+            <h1 id="__gallery__title" class="font-weight-light text-center mt-4 mb-5">Nature Gallery</h1>
+
+            <!--Gallery structure-->
+            <div class="row" id="__gallery" data-toggle="modal" data-target="#nature_modal">
+                <div class="col-6 col-sm-4 col-lg-3">
+                    <img class="w-100" data-target="#nature_carousel" data-slide-to="0" src="../assets/img/nature_gallery/nature_gallery_0.jpg" alt="Snow Leopard">
                 </div>
-              </div>
+                <div class="col-6 col-sm-4 col-lg-3">
+                    <img class="w-100" data-target="#nature_carousel" data-slide-to="1" src="../assets/img/nature_gallery/nature_gallery_1.jpg" alt="Deer in a snowy forest">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-3">
+                    <img class="w-100" data-target="#nature_carousel" data-slide-to="2" src="../assets/img/nature_gallery/nature_gallery_2.jpg" alt="Turtle swimming">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-3">
+                    <img class="w-100" data-target="#nature_carousel" data-slide-to="3" src="../assets/img/nature_gallery/nature_gallery_3.jpg" alt="Rhino">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-3">
+                    <img class="w-100" data-target="#nature_carousel" data-slide-to="4" src="../assets/img/nature_gallery/nature_gallery_4.jpg" alt="Dolphins">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-3">
+                    <img class="w-100" data-target="#nature_carousel" data-slide-to="5" src="../assets/img/nature_gallery/nature_gallery_5.jpg" alt="Sunflower">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-3">
+                    <img class="w-100" data-target="#nature_carousel" data-slide-to="6" src="../assets/img/nature_gallery/nature_gallery_6.jpg" alt="Lion">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-3">
+                    <img class="w-100" data-target="#nature_carousel" data-slide-to="7" src="../assets/img/nature_gallery/nature_gallery_7.jpg" alt="Hummingbird feeding">
+                </div>
+            </div>
+
+            <div class="modal fade" id="nature_modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                <span aria-hidden="true">x</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="nature_carousel" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#nature_carousel" data-slide-to="0"></li>
+                                    <li data-target="#nature_carousel" data-slide-to="1"></li>
+                                    <li data-target="#nature_carousel" data-slide-to="2"></li>
+                                    <li data-target="#nature_carousel" data-slide-to="3"></li>
+                                    <li data-target="#nature_carousel" data-slide-to="4"></li>
+                                    <li data-target="#nature_carousel" data-slide-to="5"></li>
+                                    <li data-target="#nature_carousel" data-slide-to="6"></li>
+                                    <li data-target="#nature_carousel" data-slide-to="7"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                  <div class="nature carousel-item active">
+                                    <img class="d-block" src="../assets/img/nature_gallery/nature_gallery_0.jpg" alt="Snow Leopard">
+                                  </div>
+                                  <div class="nature carousel-item vertical_img">
+                                    <img class="d-block" src="../assets/img/nature_gallery/nature_gallery_1.jpg" alt="Deer in a snowy forest">
+                                  </div>
+                                  <div class="nature carousel-item">
+                                    <img class="d-block" src="../assets/img/nature_gallery/nature_gallery_2.jpg" alt="Turtle swimming">
+                                  </div>
+                                  <div class="nature carousel-item">
+                                    <img class="d-block" src="../assets/img/nature_gallery/nature_gallery_3.jpg" alt="Rhino">
+                                  </div>
+                                  <div class="nature carousel-item">
+                                    <img class="d-block" src="../assets/img/nature_gallery/nature_gallery_4.jpg" alt="Dolphins">
+                                  </div>
+                                  <div class="nature carousel-item vertical_img">
+                                    <img class="d-block" src="../assets/img/nature_gallery/nature_gallery_5.jpg" alt="Sunflower">
+                                  </div>
+                                  <div class="nature carousel-item">
+                                    <img class="d-block" src="../assets/img/nature_gallery/nature_gallery_6.jpg" alt="Lion">
+                                  </div>
+                                  <div class="nature carousel-item">
+                                    <img class="d-block" src="../assets/img/nature_gallery/nature_gallery_7.jpg" alt="Hummingbird feeding">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#nature_carousel" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#nature_carousel" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </main>
         <!--~~~FOOTER~~~-->
         <footer class="__footer">
@@ -109,7 +197,8 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="../index.html#page_top">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                        <li class="breadcrumb-item"><a href="../index.html#portfolio">Portfolio</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Nature</li>
                     </ol>
                 </nav>
                     <nav class="row justify-content-center pt-3 pb-4">

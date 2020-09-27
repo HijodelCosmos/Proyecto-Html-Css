@@ -1,0 +1,43 @@
+/*<<<GALLERY (From Nature Page)>>>*/
+
+#__gallery{
+    padding: 0 15px;
+    img{
+      height: 75vw;
+      object-fit: cover;
+      display: block;
+      margin: 15px 0;
+      border-radius: 300px 300px 300px 300px;
+      &:hover {
+        border-radius: 30px 30px 30px 30px;}
+      
+      @media (min-width: $bootstrap-sm) {
+        height: 35vw;
+      }
+      
+      @media (min-width: $bootstrap-lg) {
+        height: 18vw;
+      }
+      @media only screen and (max-width: $bootstrap-md){
+        border-radius:  30px 30px 30px 30px;
+      }
+    }
+}
+
+.nature.carousel-item{
+  
+  img {
+    width: 100%;
+    object-fit: fill;
+    height: auto;
+    align-content: center;
+  }
+}
+.vertical_img{
+  width: 100px;
+  height: auto;
+}
+
+#__gallery__title{
+  color: $black;
+}
