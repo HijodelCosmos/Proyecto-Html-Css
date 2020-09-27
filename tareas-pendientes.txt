@@ -1,0 +1,8 @@
+Agregar Droopdown en la opcion portfolio del menú desplegable
+Agregar info sobre la foto en los modales de la galería nature
+Diseñar una pag de servicios
+Agregar un menu al header y quitar el menu amburguesa para grandes resoluciones
+pagina error 403
+pagina shows
+pagina landscape
+pagina portrait
