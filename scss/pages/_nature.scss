@@ -1,5 +1,11 @@
 /*<<<GALLERY (From Nature Page)>>>*/
 
+.__gallery--background{
+  background: linear-gradient(to bottom right, #e8e8e8 0%, #010c18 100%);
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+}
 #__gallery{
     padding: 0 15px;
     img{
@@ -43,4 +49,9 @@
   color: $black;
   font-size: 3rem;
   font-weight: 300;
+}
+
+.__arrow--color{
+  color: black;
+  opacity: 1;
 }

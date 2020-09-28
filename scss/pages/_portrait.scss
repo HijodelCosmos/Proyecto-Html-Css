@@ -1,0 +1,26 @@
+/*---SLIDE DE PORTRAIT--*/
+
+.__portrait__slide.carousel-item{ /*<---Si lo cambio sobrescribo Bootstrap y el home_slide es para que solo afecte al index*/
+    height: 85vh;
+    width: 100vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-shadow: 1.5px 1.5px black;
+    position: relative;
+    img{
+        margin-top: auto;
+        display:block;
+        height: 80vh;
+        width: auto;
+        border-radius: 2.5rem;
+        box-shadow: 5px 7px 19px 1px rgba(0,0,0,0.63);
+        object-position: center;
+    }
+}
+@each $slide, $color in $slide_background{
+    .#{$slide}{
+        background: $color;
+    }
+}

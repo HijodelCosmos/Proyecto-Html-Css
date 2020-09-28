@@ -21,17 +21,16 @@
         <a name="page_top"></a>
             <!--~~~CARRUSEL DE FONDO~~~-->
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carousel_home_indicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators animate__animated animate__fadeIn animate__slower animate__delay-3s">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carousel_home_indicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel_home_indicators" data-slide-to="1"></li>
+                <li data-target="#carousel_home_indicators" data-slide-to="2"></li>
             </ol>
 
             <!--~~~HEADER CON LAS REDES SOCIALES~~~-->
 
             <header>
-                
                 <nav class="__header__nav d-flex justify-content-center animate__animated animate__fadeIn animate__slower animate__delay-2s">
                     <div class="d-inline-block">
                         <ul class="__header__nav__ul">
@@ -72,7 +71,7 @@
                         <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
                         <div class="sub-sidebar-wrapper">
                             <ul class="sub-sidebar-nav">
-                                <li class="sidebar-nav-item"><a href="#">Portrait</a></li>
+                                <li class="sidebar-nav-item"><a href="./views/portrait.html">Portrait</a></li>
                                 <li class="sidebar-nav-item"><a href="#">Show</a></li>
                                 <li class="sidebar-nav-item"><a href="#">Landscape</a></li>
                                 <li class="sidebar-nav-item"><a href="./views/nature.html">Nature</a></li>
@@ -126,11 +125,11 @@
             </div>
 
             <!--Botones laterales-->
-            <a class="carousel-control-prev animate__animated animate__fadeIn animate__slower animate__delay-3s" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <a class="carousel-control-prev animate__animated animate__fadeIn animate__slower animate__delay-3s" href="#carousel_home_indicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next animate__animated animate__fadeIn animate__slower animate__delay-3s" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <a class="carousel-control-next animate__animated animate__fadeIn animate__slower animate__delay-3s" href="#carousel_home_indicators" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
@@ -152,34 +151,42 @@
                 <div class="row mt-30">
                     <div class="col-md-3 col-sm-6 p-0">
                         <div class="__portfolio__box">
-                            <img src="./assets/img/pexels-lucas-pezeta-3358299.jpg" alt="Portrait of a young woman with a painted face">
-                            <div class="__portfolio__box__content">
-                                <h3 class="__portfolio__box__label">Portrait</h3>
-                            </div>
+                            <a href="./views/portrait.html">
+                                <img src="./assets/img/pexels-lucas-pezeta-3358299.jpg" alt="Portrait of a young woman with a painted face">
+                                <div class="__portfolio__box__content">
+                                    <h3 class="__portfolio__box__label">Portrait</h3>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 p-0">
                         <div class="__portfolio__box">
-                            <img src="./assets/img/pexels-wendy-wei-1916818.jpg" alt="Musician under the halo of light on a stage">
-                            <div class="__portfolio__box__content">
-                                <h3 class="__portfolio__box__label">Show</h3>
-                            </div>
+                            <a href="./views/show.html">
+                                <img src="./assets/img/pexels-wendy-wei-1916818.jpg" alt="Musician under the halo of light on a stage">
+                                <div class="__portfolio__box__content">
+                                    <h3 class="__portfolio__box__label">Show</h3>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 p-0">
                         <div class="__portfolio__box">
-                            <img src="./assets/img/pexels-brandon-montrone-1179229.jpg" alt="Photo of a lush forest">
-                            <div class="__portfolio__box__content">
-                                <h3 class="__portfolio__box__label">Landscape</h3>
-                            </div>
+                            <a href="./views/landscape.html">
+                                <img src="./assets/img/pexels-brandon-montrone-1179229.jpg" alt="Photo of a lush forest">
+                                <div class="__portfolio__box__content">
+                                    <h3 class="__portfolio__box__label">Landscape</h3>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 p-0">
                         <div class="__portfolio__box">
-                            <img src="./assets/img/medus.jpg" alt="Jellyfish swimming deep in the ocean">
-                            <div class="__portfolio__box__content">
-                                <h3 class="__portfolio__box__label">Nature</h3>
-                            </div>
+                            <a href="./views/nature.html">
+                                <img src="./assets/img/medus.jpg" alt="Jellyfish swimming deep in the ocean">
+                                <div class="__portfolio__box__content">
+                                    <h3 class="__portfolio__box__label">Nature</h3>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
