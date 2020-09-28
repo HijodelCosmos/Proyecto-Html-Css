@@ -6,7 +6,7 @@
         <title>Memento/Homepage</title>
         <meta name="description" content="We are Memento photography studio, we are formed by the great team of multidisciplinary artist.
          Our goal is to discover all the hidden wonders in the world and bring them to your eyes. Here you can find our works, services and contact "
-        <meta name="keywords" content="PHOTOGRAPHY,PICTURE,STUDIO,PHOTOGRAPHER,VISUAL ARTS,BACKGROUND,WILD,NATURE,LANDSCAPE,PORTRAIT,BLAK&WHITE,LIGTHROOM,MEMENTO,SHOWS,CURSES,EVENTS PHOTOGTAPHER,ANIMALS PHOTOGRAPHY">
+        <meta name="keywords" content="PHOTOGRAPHY,PICTURE,STUDIO,PHOTOGRAPHER,VISUAL ARTS,BACKGROUND,WILD,NATURE,PHOTOJOURNALISM,LANDSCAPE,PORTRAIT,BLAK&WHITE,LIGTHROOM,MEMENTO,SHOWS,CURSES,EVENTS PHOTOGTAPHER,ANIMALS PHOTOGRAPHY">
 
 
         <link rel="stylesheet" href="./css/main.css">
@@ -67,17 +67,31 @@
                         <a class="js-scroll-trigger" href="#page_top">Home</a>
                     </li>
                     <!--La fuking Lista desplegable del infierno-->
-                    <li class="sidebar-nav-item sub-sidebar-header">
+                    <li class="sidebar-nav-item">
+                        <div class="dropleft dropdown_sidebar">
+                            <button type="button" class="dropdown_arrow" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span span class="fas fa-caret-left"></span>
+                            </button>
+                            <div id="dropdown-submenu" class="dropdown-menu">
+                                <a class="dropdown-item" href="./views/portrait.html">Portrait</a>
+                                <a class="dropdown-item" href="#">Show</a>
+                                <a class="dropdown-item" href="#">Photojournalism</a>
+                                <a class="dropdown-item" href="./views/nature.html">Nature</a>
+                            </div>
+                            <button type="button"><a class="js-scroll-trigger dropdown_btn" href="#portfolio">Portfolio</a></button>
+                        </div>
+                    </li>
+                   <!-- <li class="sidebar-nav-item sub-sidebar-header">
                         <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
                         <div class="sub-sidebar-wrapper">
                             <ul class="sub-sidebar-nav">
                                 <li class="sidebar-nav-item"><a href="./views/portrait.html">Portrait</a></li>
                                 <li class="sidebar-nav-item"><a href="#">Show</a></li>
-                                <li class="sidebar-nav-item"><a href="#">Landscape</a></li>
+                                <li class="sidebar-nav-item"><a href="#">Photojournalism</a></li>
                                 <li class="sidebar-nav-item"><a href="./views/nature.html">Nature</a></li>
                             </ul>
                         </div>
-                    </li>
+                    </li>-->
                     <li class="sidebar-nav-item">
                         <a class="js-scroll-trigger" href="">About Us</a>
                     </li>
@@ -89,7 +103,6 @@
                     </li>
                 </ul>
             </nav>
-
 
             <!--~~~TITULO BIENVENIDA~~~-->
             <div class="__hero__title d-flex justify-content-center justify-content-sm-start animate__animated animate__fadeIn animate__slower animate__delay-1s">
@@ -144,6 +157,9 @@
             </div>
         </section>
 
+
+
+
         <!--~~~~PORTFOLIO~~~~-->
         <section class="__portfolio">
             <div class="container mt-40 pb-5 justify-content-center" id="portfolio">
@@ -171,10 +187,10 @@
                     </div>
                     <div class="col-md-3 col-sm-6 p-0">
                         <div class="__portfolio__box">
-                            <a href="./views/landscape.html">
+                            <a href="./views/photojournalism.html">
                                 <img src="./assets/img/pexels-brandon-montrone-1179229.jpg" alt="Photo of a lush forest">
                                 <div class="__portfolio__box__content">
-                                    <h3 class="__portfolio__box__label">Landscape</h3>
+                                    <h3 class="__portfolio__box__label">Photojournalism</h3>
                                 </div>
                             </a>
                         </div>
@@ -259,7 +275,8 @@
         </a>
 
  
-        
+        <!--~~~VENDOR~~~-->
+        <script src="./vendor/js/popper.min.js"></script>
         <script type="text/javascript" src="./vendor/js/jquery.min.js"></script>
         <script type="text/javascript" src="./vendor/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="./vendor/js/bootstrap.bundle.min.js"></script>
