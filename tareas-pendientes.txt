@@ -1,16 +1,21 @@
 <<<<<<<<TAREAS PENDIENTES>>>>>>>>
 
-()Agregar Droopdown en la opcion portfolio del menú desplegable
+(X)Agregar Droopdown en la opcion portfolio del menú desplegable <<<!IMPORTANTE
+()Agregar un menu al header y quitar el menu amburguesa para grandes resoluciones en el hero
+
 ()Diseñar una pag de servicios
-()Agregar un menu al header y quitar el menu amburguesa para grandes resoluciones
+()Pagina about us <<<!IMPORTANTE
 ()Página error 403
-()Página shows
-()Página Photojournalism
-    ()historias documentales de las imágenes
-(X)Página nature
+()Página shows <<<!IMPORTANTE
+(X)Página Photojournalism
+    (X)Historias documentales de las imágenes
+    (X)Ivestigar background interactivo
+    (X)Pulir colores del background
+    ()Corregir titulo 
+(X)Página nature <<<!IMPORTANTE
     (X)Jugar con estilos en la pag nature (a los iconos del carrusel darle mas visibilidad)
     ()Agregar info sobre la foto en los modales de la galería nature
-(X)Pagina portrait
+(X)Pagina portrait <<<!IMPORTANTE
     (X)Conbinar los gradientes de fondo
     ()Agregar titulo al portrait
 

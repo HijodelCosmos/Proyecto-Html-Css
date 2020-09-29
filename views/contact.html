@@ -67,16 +67,19 @@
                     <li class="sidebar-nav-item">
                         <a class="js-scroll-trigger" rel=“nofollow” href="../index.html">Home</a>
                     </li>
-                    <!--La fuking Lista desplegable del infierno-->
-                    <li class="sidebar-nav-item sub-sidebar-header">
-                        <a class="js-scroll-trigger" rel=“nofollow” href="../index.html#portfolio">Portfolio</a>
-                        <div class="sub-sidebar-wrapper">
-                            <ul class="sub-sidebar-nav">
-                                <li class="sidebar-nav-item"><a rel=“nofollow” href="./portrait.html">Portrait</a></li>
-                                <li class="sidebar-nav-item"><a rel=“nofollow” href="#">Show</a></li>
-                                <li class="sidebar-nav-item"><a rel=“nofollow” href="#">Landscape</a></li>
-                                <li class="sidebar-nav-item"><a rel=“nofollow” href="./nature.html">Nature</a></li>
-                            </ul>
+                    <!--Dropdown-->
+                    <li class="sidebar-nav-item">
+                        <div class="dropleft dropdown_sidebar">
+                            <button type="button" class="dropdown_arrow" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span span class="fas fa-caret-left"></span>
+                            </button>
+                            <div id="dropdown-submenu" class="dropdown-menu">
+                                <a class="dropdown-item" href="./portrait.html">Portrait</a>
+                                <a class="dropdown-item" href="./show.html">Show</a>
+                                <a class="dropdown-item" href="./photojournalism.html">Photojournalism</a>
+                                <a class="dropdown-item" href="./nature.html">Nature</a>
+                            </div>
+                            <button type="button"><a class="js-scroll-trigger dropdown_btn" href="../index.html#portfolio">Portfolio</a></button>
                         </div>
                     </li>
                     <li class="sidebar-nav-item">
@@ -98,7 +101,7 @@
                     <div class=" d-none d-lg-inline-block col-lg-6 __form__picture"></div>
                         <div class="col-12 col-lg-6">
                             <div class="row justify-content-center">
-                            <h1 class="col-12 __form__title">Leave us your message!</h1>
+                                <h1 class="col-12 __form__title">Leave us your message!</h1>
                             </div>
                             <form form action="./answer.html" method="POST" enctype="application/x-www-form-urlencoded">
                                 <div class="row justify-content-center">

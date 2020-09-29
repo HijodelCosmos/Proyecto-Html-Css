@@ -20,7 +20,7 @@
     
     .sidebar-brand{display: none;}
     .sidebar-brand+.sidebar-nav-item{
-        margin-top: 210px;}
+        margin-top: 250px;}
 }
 
 .sidebar-nav {
@@ -101,7 +101,7 @@
 }
 
 
-/*---DROPDOWN MENU DEPLEGABLE---*/
+/*---DROPDOWN---*/
 .dropdown_sidebar{
 
     button{
@@ -125,6 +125,7 @@
 /*-----SUB MENÚ------*/
 #dropdown-submenu{
     background-color: $menu_background;
+    font-size: 1.12rem;
 }
 @media only screen and (max-width: 576px) {
         #dropdown-submenu {
