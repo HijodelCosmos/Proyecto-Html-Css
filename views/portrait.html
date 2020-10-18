@@ -17,53 +17,86 @@
         <script src="https://kit.fontawesome.com/076977d5ec.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <!--~~~CARRUSEL DE FONDO~~~-->
-        <div id="carousel_portrait_indicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carousel_portrait_indicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel_portrait_indicators" data-slide-to="1"></li>
-                <li data-target="#carousel_portrait_indicators" data-slide-to="2"></li>
-                <li data-target="#carousel_portrait_indicators" data-slide-to="3"></li>
-            </ol>
+        <a name="page_top"></a>
+        <!--~~~HEADER~~~-->
+        <header class="__header">
+            <div class="container justify-content-center">
+                <div class="row">
+                    
+                    <span class=" my-auto col-lg-5 my-auto d-inline-block">
+                        <a class="__header__title" href="../index.html">MEMENTO</a>
+                        <span class="d-none d-sm-inline-block __header__secction__title my-auto">/Portrait</span>
+                    
+                    </span>
+                    
+                    <nav class="d-none d-lg-inline-block offset-lg-2  col-5 p-0">
+                        <ul class="__header__list">
+                            <li>
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <i class="fab fa-instagram-square alt="Instragram logo""></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.flickr.com/" target="_blank">
+                                    <i class="fab fa-flickr " alt="Flickr logo"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <i class="fab fa-facebook-square" alt="Facebook logo"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:nicopj20@gmail.com" target="_blank"><i class="fa fa-envelope" alt="Send email logo"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/543515494995" target="_blank"><i class="fab fa-whatsapp" alt="Whatsapp logo"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            
+                <!--NAVBAR MENU-->
 
-            <!--~~~HEADER~~~-->
-            <header class="__header">
-                <div class="container justify-content-center">
-                    <div class="row">
-                        <a class="__header__title col-2 my-auto " href="../index.html">
-                            <span class=" col-2 my-auto ">MEMENTO</span>
-                        </a>
-                        
-                        <nav class="d-none d-sm-inline-block col-6 offset-4">
-                            <ul class="__header__list">
-                                <li>
-                                    <a href="https://www.instagram.com/" target="_blank">
-                                        <i class="fab fa-instagram-square alt="Instragram logo""></i>
-                                    </a>
+                <nav class="container d-none d-md-inline-block" id="__header__navbar_menu">
+                    <ul class=" d-inline-block">
+                        <li class="__header__navbar_menu__item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="../index.html">Home</a>
+                        </li>
+                        <li class="__header__navbar_menu__item deploy_trigger">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="../index.html#portfolio">Portfolio</a>
+                            <ul class="__header__navbar_menu__deploy_menu animate__animated animate__fadeIn animate__slowe">
+                                <li class="__header__navbar_menu__item">
+                                    <a href="./portrait.html">Portrait</a>
                                 </li>
-                                <li>
-                                    <a href="https://www.flickr.com/" target="_blank">
-                                        <i class="fab fa-flickr " alt="Flickr logo"></i>
-                                    </a>
+                                <li class="__header__navbar_menu__item">
+                                    <a href="./show.html">Show</a>
                                 </li>
-                                <li>
-                                    <a href="https://www.facebook.com/" target="_blank">
-                                        <i class="fab fa-facebook-square" alt="Facebook logo"></i>
-                                    </a>
+                                <li class="__header__navbar_menu__item">
+                                    <a href="./photojournalism.html">Photojournalism</a>
                                 </li>
-                                <li class=" d-none d-md-inline-block">
-                                    <a href="mailto:nicopj20@gmail.com" target="_blank"><i class="fa fa-envelope" alt="Send email logo"></i>
-                                    </a>
-                                </li>
-                                <li class="d-none d-md-inline-block">
-                                    <a href="https://wa.me/543515494995" target="_blank"><i class="fab fa-whatsapp" alt="Whatsapp logo"></i>
-                                    </a>
+                                <li class="__header__navbar_menu__item">
+                                    <a href="./nature.html">Nature</a>
                                 </li>
                             </ul>
-                        </nav>
-                    </div>
-                </div>
-                <!--~~~MENU LATERAL~~~-->
+                        </li>
+                        <li class="__header__navbar_menu__item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="">About Us</a>
+                        </li>
+                        <li class="__header__navbar_menu__item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="">Services</a>
+                        </li>
+                        <li class="__header__navbar_menu__item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="./contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+            <!--~~~MENU LATERAL~~~-->
+            <div class="d-inline-block d-md-none">
                 <a class="menu-toggle rounded" href="#">
                 <i class="fas fa-bars"></i>
                 </a>
@@ -97,13 +130,22 @@
                             <a class="js-scroll-trigger" rel=“nofollow” href="">Services</a>
                         </li>
                         <li class="sidebar-nav-item">
-                            <a class="js-scroll-trigger" rel=“nofollow” href="../views/contact.html">Contact us</a>
+                            <a class="js-scroll-trigger" rel=“nofollow” href="./contact.html">Contact us</a>
                         </li>
                     </ul>
                 </nav>
-            </header>
+            </div>
+        </header>
 
-            <main>
+        <main>
+        <!--~~~CARRUSEL DE FONDO~~~-->
+            <div id="carousel_portrait_indicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel_portrait_indicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel_portrait_indicators" data-slide-to="1"></li>
+                    <li data-target="#carousel_portrait_indicators" data-slide-to="2"></li>
+                    <li data-target="#carousel_portrait_indicators" data-slide-to="3"></li>
+                </ol>
 
 
                 <!--~~~SLIDES DE FONDO~~~-->
@@ -157,8 +199,6 @@
             </main>
         </div>
         
-
-
 
         <!--~~~FOOTER~~~-->
         <footer class="__footer">

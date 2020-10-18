@@ -20,7 +20,10 @@
     
     .sidebar-brand{display: none;}
     .sidebar-brand+.sidebar-nav-item{
-        margin-top: 250px;}
+        margin-top: 100px;}
+    .sidebar-brand-index+.sidebar-nav-item{
+        margin-top: 250px;
+    }
 }
 
 .sidebar-nav {
@@ -89,7 +92,7 @@
     color: $hero_font_color;
     background: rgba(52, 58, 64, 0.5);
     line-height: 50px;
-    z-index: 999;
+    z-index: 1000;
 }
   
 .menu-toggle:focus, .menu-toggle:hover {
@@ -102,6 +105,7 @@
 
 
 /*---DROPDOWN---*/
+
 .dropdown_sidebar{
 
     button{
@@ -122,6 +126,8 @@
       padding: 15px 5px 15px 15px;
     }
   }
+
+
 /*-----SUB MENÚ------*/
 #dropdown-submenu{
     background-color: $menu_background;

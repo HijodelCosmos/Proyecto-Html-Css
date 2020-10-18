@@ -1,22 +1,29 @@
 <<<<<<<<TAREAS PENDIENTES>>>>>>>>
 
-(X)Agregar Droopdown en la opcion portfolio del menú desplegable <<<!IMPORTANTE
-()Agregar un menu al header y quitar el menu amburguesa para grandes resoluciones en el hero
+    <<<Correciones>>>
+        (X)Correjir el boton de scroll en todas las paginas, solo funciona en el index)
+        (X)Agregar Droopdown en la opcion portfolio del menú desplegable <<<!IMPORTANTE
+        (X)Agregar un menu al header y quitar el menu hamburguesa para grandes resoluciones en el hero
+            ()Agregar propiedad fixed al nav
+        ()Agregar :hover al dropdown de portfolio
+        (X)Solucionar menu hamburguesa en todas la pag menos el index, el menu queda muy abajo
 
 ()Diseñar una pag de servicios
 ()Pagina about us <<<!IMPORTANTE
 ()Página error 403
-()Página shows <<<!IMPORTANTE
+(X)Página shows <<<!IMPORTANTE
+    (X)Carrusel con iconos de las mismas imagenes
+    ()Agregar countdown del proximo evento a cubrir
 (X)Página Photojournalism
     (X)Historias documentales de las imágenes
     (X)Ivestigar background interactivo
     (X)Pulir colores del background
-    ()Corregir titulo 
+    (X)Corregir titulo 
 (X)Página nature <<<!IMPORTANTE
     (X)Jugar con estilos en la pag nature (a los iconos del carrusel darle mas visibilidad)
     ()Agregar info sobre la foto en los modales de la galería nature
 (X)Pagina portrait <<<!IMPORTANTE
     (X)Conbinar los gradientes de fondo
-    ()Agregar titulo al portrait
+    (X)Agregar titulo al portrait
 
 ()Investigar como agregar boton de descarga de las imágenes

@@ -6,11 +6,12 @@ html body{
     padding: 0px;
 }
 
-/*HEADER CONTINUAR AQUI!*/
+/*HEADER*/
 .__header{
     background-color:$header-background;
-    width: 100vw;
+    width: 100%;
     height: auto;
+    top: auto;
 
     .__header__title,.__header__title:hover,.__header__title:visited{
         font: $header-title-font;
@@ -39,6 +40,74 @@ html body{
     }
 }
 
+.__header__secction__title{
+    font: $header_secction_title;
+  }
+
+/*<<<<<NAVBAR-MENU>>>>>*/
+
+#__header__navbar_menu{
+    font: $navbar_font;
+    background-color: $header-background;
+    width: 100%;
+    height: auto;
+    z-index: 1000;
+    padding-top: 10px;
+    top: auto;
+}
+
+
+.__header__navbar_menu__item{
+    display: inline-block;
+    
+    color: $hero_font_color;
+    a{
+        padding-left: 10px;
+        padding-right: 10px;
+        border-left: solid;
+        border-right: solid;
+        border-color: $black;
+    }
+    a:hover{
+        text-decoration: none;
+        color: $hero_font_color;
+        border-color: $white;
+        text-shadow: 0.5px 0.5px $white;
+        
+    }
+    a:active ,a:focus ,a:visited {
+        text-decoration: none;
+        color: $hero_font_color;
+    }
+}
+/*<<<Opcion desplegable>>>*/
+.deploy_trigger{
+    position: relative;
+    .__header__navbar_menu__deploy_menu{
+        background-color: $black;
+        height: auto;
+        width: auto;
+        padding:10px;
+        z-index: 1000;
+        display: none;
+        position: absolute;
+        top: 30px;
+        li{
+            display: block;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+        a:hover{
+            border-right: none;
+        }
+
+    }
+}
+.deploy_trigger:hover{
+    .__header__navbar_menu__deploy_menu{
+        display:block;
+    }
+}
 /*<<<<<SEPARADORES>>>>>*/
 
 @each $n-separador in 1,2,3 {
