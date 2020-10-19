@@ -1,39 +1,67 @@
 /*<<<<<<<<<CONTENIDO ESPECIFICO DEL INDEX>>>>>>>>>>*/
 
-
-/*----HEADER(NO OLVIDAR OPTIMIZAR!)----*/
-.__header__nav{
+/*----NAVMENU----*/
+#__home__header{
     position: absolute;
-    width: 100%;
+    font: $navbar_font;
+    background-color: #0000004a;
+    width: auto;
+    height: auto;
+    z-index: 1000;
+    padding-top: 10px;
+    padding-right: 15px;
+    border-bottom-right-radius: 20px;
+    a{
+        border:none;/*Sobreescribo la propiedad del header global*/
+        text-shadow: 1px 1px $black;
+    }
+    a:hover{
+        border-left: solid;
+        border-color: $white;
+    }
+
+}
+
+/*----REDES----*/
+#__home__header_redes{
+    position: absolute;
+    width: auto;
     height: 70px;
     z-index: 10;
-    margin: 0px;
-
-}
-.__header__nav__ul{
-    display: inline-block;
-    list-style: none;
-    width: 100%;
-    padding-left: 0px;
-    margin: 10px;
-    li{
+    margin: 5px;
+    font: $navbar_font;
+    .__home__header_redes__ul{
         display: inline-block;
         list-style: none;
-        margin: 0px 10px;
+        width: 100%;
+        padding-left: 0px;
+        margin: 10px;
+        li{
+            display: inline-block;
+            list-style: none;
+            margin: 0px 10px;
+        }
+    }
+
+    .__home__header__icon{
+        font-size: 2em;
+        color: $icon_color;
+        text-shadow: 1px 1px rgb(34, 34, 34);
+    }
+    .__home__header__icon:hover{
+        animation-name: swing;
+        animation-play-state: running;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
     }
 }
-.__header__icon{
-    font-size: 2.5em;
-    color: $icon_color;
-    text-shadow: 1px 1px rgb(34, 34, 34);
+@media only screen and (min-width: $bootstrap-lg) {
+    .__home__header_redes{
+        right: 10vw;
+    }
 }
-.__header__icon:hover{
-    animation-name: swing;
-    animation-play-state: running;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
+
 /*------------------*/
 
 

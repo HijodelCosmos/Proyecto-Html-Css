@@ -28,71 +28,107 @@
                 <li data-target="#carousel_home_indicators" data-slide-to="2"></li>
             </ol>
 
-            <!--~~~HEADER CON LAS REDES SOCIALES~~~-->
+            <!--~~~HEADER~~~-->
 
-            <header>
-                <nav class="__header__nav d-flex justify-content-center animate__animated animate__fadeIn animate__slower animate__delay-2s">
-                    <div class="d-inline-block">
-                        <ul class="__header__nav__ul">
-                            <li>
-                                <a href="https://www.instagram.com/" target="_blank">
-                                    <i class="fab fa-instagram-square __header__icon" alt="Instragram logo"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.flickr.com/" target="_blank">
-                                    <i class="fab fa-flickr __header__icon" alt="Flickr logo"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com/" target="_blank">
-                                    <i class="fab fa-facebook-square __header__icon" alt="Facebook logo"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+            <header class="container-fluid p-0">
+                <!--NavMenu-->
+                <nav id="__home__header" class="d-none d-md-inline-block animate__animated animate__slideInLeft animate__slow animate__delay-2s">
+                    <ul>
+                        <li class="__header__navbar_menu__item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="../index.html">Home</a>
+                        </li>
+                        <li class="__header__navbar_menu__item deploy_trigger">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="../index.html#portfolio">Portfolio</a>
+                            <ul class="__header__navbar_menu__deploy_menu animate__animated animate__fadeIn animate__slowe">
+                                <li class="__header__navbar_menu__item">
+                                    <a href="./views/portrait.html">Portrait</a>
+                                </li>
+                                <li class="__header__navbar_menu__item">
+                                    <a href="./views/show.html">Show</a>
+                                </li>
+                                <li class="__header__navbar_menu__item">
+                                    <a href="./views/photojournalism.html">Photojournalism</a>
+                                </li>
+                                <li class="__header__navbar_menu__item">
+                                    <a href="./views/nature.html">Nature</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="__header__navbar_menu__item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="">About Us</a>
+                        </li>
+                        <li class="__header__navbar_menu__item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="">Services</a>
+                        </li>
+                        <li class="__header__navbar_menu__item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="./views/contact.html">Contact us</a>
+                        </li>
+                    </ul>
                 </nav>
+                <!--Redes-->
+                <div class="col-3 offset-lg-8">
+                <nav id="__home__header_redes" class="d-inline-block d-md-none d-lg-inline-block animate__animated animate__fadeIn animate__slower animate__delay-2s">
+                    <ul class="__home__header_redes__ul d-inline-block">
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fab fa-instagram-square __home__header__icon" alt="Instragram logo"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.flickr.com/" target="_blank">
+                                <i class="fab fa-flickr __home__header__icon" alt="Flickr logo"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fab fa-facebook-square __home__header__icon" alt="Facebook logo"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                </div>
             </header>
 
              <!--~~~MENU LATERAL~~~-->
-            <a class="menu-toggle rounded animate__animated animate__fadeIn animate__slower animate__delay-3s" href="#">
-                <i class="fas fa-bars"></i>
-            </a>
-            <nav id="sidebar-wrapper">
-                <ul class="sidebar-nav">
-                    <li class="sidebar-brand sidebar-brand-index">
-                        <a class="js-scroll-trigger" href="./index.html">MEMENTO</a>
-                    </li>
-                    <li class="sidebar-nav-item">
-                        <a class="js-scroll-trigger" href="#page_top">Home</a>
-                    </li>
-                    <!--Dropdown-->
-                    <li class="sidebar-nav-item">
-                        <div class="dropleft dropdown_sidebar">
-                            <button type="button" class="dropdown_arrow" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span span class="fas fa-caret-left"></span>
-                            </button>
-                            <div id="dropdown-submenu" class="dropdown-menu">
-                                <a class="dropdown-item" href="./views/portrait.html">Portrait</a>
-                                <a class="dropdown-item" href="#">Show</a>
-                                <a class="dropdown-item" href="./views/photojournalism.html">Photjournalism</a>
-                                <a class="dropdown-item" href="./views/nature.html">Nature</a>
+            <div class="d-block d-md-none">
+                <a class="menu-toggle rounded animate__animated animate__fadeIn animate__slower animate__delay-3s" href="#">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <nav id="sidebar-wrapper">
+                    <ul class="sidebar-nav">
+                        <li class="sidebar-brand sidebar-brand-index">
+                            <a class="js-scroll-trigger" href="./index.html">MEMENTO</a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                            <a class="js-scroll-trigger" href="#page_top">Home</a>
+                        </li>
+                        <!--Dropdown-->
+                        <li class="sidebar-nav-item">
+                            <div class="dropleft dropdown_sidebar">
+                                <button type="button" class="dropdown_arrow" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span span class="fas fa-caret-left"></span>
+                                </button>
+                                <div id="dropdown-submenu" class="dropdown-menu">
+                                    <a class="dropdown-item" href="./views/portrait.html">Portrait</a>
+                                    <a class="dropdown-item" href="#">Show</a>
+                                    <a class="dropdown-item" href="./views/photojournalism.html">Photjournalism</a>
+                                    <a class="dropdown-item" href="./views/nature.html">Nature</a>
+                                </div>
+                                <button type="button"><a class="js-scroll-trigger dropdown_btn" href="#portfolio">Portfolio</a></button>
                             </div>
-                            <button type="button"><a class="js-scroll-trigger dropdown_btn" href="#portfolio">Portfolio</a></button>
-                        </div>
-                    </li>
-                    <li class="sidebar-nav-item">
-                        <a class="js-scroll-trigger" href="">About Us</a>
-                    </li>
-                    <li class="sidebar-nav-item">
-                        <a class="js-scroll-trigger" href="">Services</a>
-                    </li>
-                    <li class="sidebar-nav-item">
-                        <a class="js-scroll-trigger" href="./views/contact.html">Contact us</a>
-                    </li>
-                </ul>
-            </nav>
-
+                        </li>
+                        <li class="sidebar-nav-item">
+                            <a class="js-scroll-trigger" href="">About Us</a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                            <a class="js-scroll-trigger" href="">Services</a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                            <a class="js-scroll-trigger" href="./views/contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
             <!--~~~TITULO BIENVENIDA~~~-->
             <div class="__hero__title d-flex justify-content-center justify-content-sm-start animate__animated animate__fadeIn animate__slower animate__delay-1s">
                 <h1 class=" d-sm-inline ml-sm-5 __hero__title--size">MEMENTO</h1>

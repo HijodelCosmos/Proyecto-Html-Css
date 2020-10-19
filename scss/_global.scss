@@ -67,6 +67,7 @@ html body{
         border-left: solid;
         border-right: solid;
         border-color: $black;
+        color: $hero_font_color;
     }
     a:hover{
         text-decoration: none;
@@ -91,7 +92,7 @@ html body{
         z-index: 1000;
         display: none;
         position: absolute;
-        top: 30px;
+        top: 25px;
         li{
             display: block;
             padding-bottom: 5px;

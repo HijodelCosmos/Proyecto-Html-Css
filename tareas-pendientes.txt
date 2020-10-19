@@ -3,8 +3,9 @@
     <<<Correciones>>>
         (X)Correjir el boton de scroll en todas las paginas, solo funciona en el index)
         (X)Agregar Droopdown en la opcion portfolio del menú desplegable <<<!IMPORTANTE
-        (X)Agregar un menu al header y quitar el menu hamburguesa para grandes resoluciones en el hero
+        (X)Agregar un menu al header y quitar el menu hamburguesa para grandes resoluciones
             ()Agregar propiedad fixed al nav
+            (X)Agregar header al HERO)<<<!IMPORTANTE
         ()Agregar :hover al dropdown de portfolio
         (X)Solucionar menu hamburguesa en todas la pag menos el index, el menu queda muy abajo
 
@@ -13,7 +14,7 @@
 ()Página error 403
 (X)Página shows <<<!IMPORTANTE
     (X)Carrusel con iconos de las mismas imagenes
-    ()Agregar countdown del proximo evento a cubrir
+    (X)Agregar countdown del proximo evento a cubrir
 (X)Página Photojournalism
     (X)Historias documentales de las imágenes
     (X)Ivestigar background interactivo
