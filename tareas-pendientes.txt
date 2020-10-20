@@ -1,31 +1,41 @@
 <<<<<<<<TAREAS PENDIENTES>>>>>>>>
 
+
+    <<<Contenido>>>
+    (X)Pagina about us <<<!IMPORTANTE
+        (X)Acordeon con imagen
+    (X)Página Photojournalism
+        (X)Historias documentales de las imágenes
+        (X)Ivestigar background interactivo
+        (X)Personalizar colores del background para cada imagen
+    (X)Página nature <<<!IMPORTANTE
+        (X)Jugar con estilos en la pag nature (a los iconos del carrusel darle mas visibilidad)
+        ()Agregar info sobre la foto en los modales de la galería nature
+    (X)Pagina portrait <<<!IMPORTANTE
+        (X)Conbinar los gradientes de fondo
+        (X)Agregar titulo al portrait
+    (X)Página error 403
+    (X)Página shows <<<!IMPORTANTE
+        (X)Carrusel con iconos de las mismas imagenes
+        (X)Agregar countdown del proximo evento a cubrir
+    ()Diseñar una pag de servicios
+
     <<<Correciones>>>
-        (X)Correjir el boton de scroll en todas las paginas, solo funciona en el index)
-        (X)Agregar Droopdown en la opcion portfolio del menú desplegable <<<!IMPORTANTE
-        (X)Agregar un menu al header y quitar el menu hamburguesa para grandes resoluciones
-            ()Agregar propiedad fixed al nav
-            (X)Agregar header al HERO)<<<!IMPORTANTE
-        ()Agregar :hover al dropdown de portfolio
-        (X)Solucionar menu hamburguesa en todas la pag menos el index, el menu queda muy abajo
+    (X)Correjir el boton de scroll en todas las paginas, solo funciona en el index
+    (X)Agregar Droopdown en la opcion portfolio del menú desplegable <<<!IMPORTANTE
+    (X)Corregir titulos en los headers 
+    (X)Agregar un menu al header y quitar el menu hamburguesa para grandes resoluciones
 
-()Diseñar una pag de servicios
-(X)Pagina about us <<<!IMPORTANTE
-    (X)Acordeon con imagen
-(X)Página error 403
-(X)Página shows <<<!IMPORTANTE
-    (X)Carrusel con iconos de las mismas imagenes
-    (X)Agregar countdown del proximo evento a cubrir
-(X)Página Photojournalism
-    (X)Historias documentales de las imágenes
-    (X)Ivestigar background interactivo
-    (X)Pulir colores del background
-    (X)Corregir titulo 
-(X)Página nature <<<!IMPORTANTE
-    (X)Jugar con estilos en la pag nature (a los iconos del carrusel darle mas visibilidad)
-    ()Agregar info sobre la foto en los modales de la galería nature
-(X)Pagina portrait <<<!IMPORTANTE
-    (X)Conbinar los gradientes de fondo
-    (X)Agregar titulo al portrait
+        (X)Agregar header al HERO)<<<!IMPORTANTE
+    (X)Agregar :hover al dropdown de portfolio
+    (X)Solucionar menu hamburguesa en todas la pag menos el index, el menu queda muy abajo
 
-()Investigar como agregar boton de descarga de las imágenes
+    <<<Para aprender>>>
+    (X)Galeria de fotos que habran modales con la foto completa
+    (X)Galeria carrusel con los iconos pequeños de las imagenes debajo
+    (X)Agregar galerias que cambien el fondo con javascript
+    ()Agregar propiedad fixed al nav con javascript
+    ()Solucionar error de mi javascript para la Loading page
+    ()Agregar mapa googlemaps
+    ()Investigar como agregar boton de descarga de las imágenes
+    
