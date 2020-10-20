@@ -23,15 +23,18 @@
         <header class="__header">
             <div class="container justify-content-center">
                 <div class="row">
-                    <a class="__header__title col-2 my-auto " href="../index.html">
-                        <span class=" col-2 my-auto ">MEMENTO<!--CONTINUAR ACAAAA--></span>
-                    </a>
                     
-                    <nav class="d-none d-sm-inline-block col-6 offset-4">
+                    <span class=" my-auto col-lg-5 my-auto d-inline-block">
+                        <a class="__header__title" href="../index.html">MEMENTO</a>
+                        <span class="d-none d-sm-inline-block __header__secction__title my-auto"></span>
+                    
+                    </span>
+                    
+                    <nav class="d-none d-lg-inline-block offset-lg-2  col-5 p-0">
                         <ul class="__header__list">
                             <li>
                                 <a href="https://www.instagram.com/" target="_blank">
-                                    <i class="fab fa-instagram-square" alt="Instragram logo"></i>
+                                    <i class="fab fa-instagram-square alt="Instragram logo""></i>
                                 </a>
                             </li>
                             <li>
@@ -44,29 +47,67 @@
                                     <i class="fab fa-facebook-square" alt="Facebook logo"></i>
                                 </a>
                             </li>
-                            <li class=" d-none d-md-inline-block">
+                            <li>
                                 <a href="mailto:nicopj20@gmail.com" target="_blank"><i class="fa fa-envelope" alt="Send email logo"></i>
                                 </a>
                             </li>
-                            <li class="d-none d-md-inline-block">
+                            <li>
                                 <a href="https://wa.me/543515494995" target="_blank"><i class="fab fa-whatsapp" alt="Whatsapp logo"></i>
                                 </a>
                             </li>
                         </ul>
                     </nav>
                 </div>
+            
+                <!--NAVBAR MENU-->
+
+                <nav class="container d-none d-md-inline-block" id="__header__navbar_menu">
+                    <ul class=" d-inline-block">
+                        <li class="__header__navbar_menu__item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="../index.html">Home</a>
+                        </li>
+                        <li class="__header__navbar_menu__item deploy_trigger">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="../index.html#portfolio">Portfolio</a>
+                            <ul class="__header__navbar_menu__deploy_menu animate__animated animate__fadeIn animate__slowe">
+                                <li class="__header__navbar_menu__item">
+                                    <a href="./portrait.html">Portrait</a>
+                                </li>
+                                <li class="__header__navbar_menu__item">
+                                    <a href="./show.html">Show</a>
+                                </li>
+                                <li class="__header__navbar_menu__item">
+                                    <a href="./photojournalism.html">Photojournalism</a>
+                                </li>
+                                <li class="__header__navbar_menu__item">
+                                    <a href="./nature.html">Nature</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="__header__navbar_menu__item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="./aboutus.html">About Us</a>
+                        </li>
+                        <li class="__header__navbar_menu__item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="">Services</a>
+                        </li>
+                        <li class="__header__navbar_menu__item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="./contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+
             </div>
             <!--~~~MENU LATERAL~~~-->
-            <a class="menu-toggle rounded" href="#">
+            <div class="d-inline-block d-md-none">
+                <a class="menu-toggle rounded" href="#">
                 <i class="fas fa-bars"></i>
                 </a>
                 <nav id="sidebar-wrapper">
                     <ul class="sidebar-nav">
                         <li class="sidebar-brand">
-                            <a class="js-scroll-trigger" href="../index.html">MEMENTO</a>
+                            <a class="js-scroll-trigger" rel=“nofollow” href="../index.html">MEMENTO</a>
                         </li>
                         <li class="sidebar-nav-item">
-                            <a class="js-scroll-trigger" href="../index.html">Home</a>
+                            <a class="js-scroll-trigger" rel=“nofollow” href="../index.html">Home</a>
                         </li>
                         <!--Dropdown-->
                         <li class="sidebar-nav-item">
@@ -84,16 +125,17 @@
                             </div>
                         </li>
                         <li class="sidebar-nav-item">
-                            <a class="js-scroll-trigger" href="">About Us</a>
+                            <a class="js-scroll-trigger" rel=“nofollow” href="./aboutus.html">About Us</a>
                         </li>
                         <li class="sidebar-nav-item">
-                            <a class="js-scroll-trigger" href="">Services</a>
+                            <a class="js-scroll-trigger" rel=“nofollow” href="">Services</a>
                         </li>
                         <li class="sidebar-nav-item">
-                            <a class="js-scroll-trigger" href="./contact.html">Contact us</a>
+                            <a class="js-scroll-trigger" rel=“nofollow” href="./contact.html">Contact us</a>
                         </li>
                     </ul>
                 </nav>
+            </div>
         </header>
         <!--~~~MAIN~~~-->
         <main class="__answer--background">

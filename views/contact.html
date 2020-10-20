@@ -19,15 +19,18 @@
     <body>
 
         <!--~~~HEADER~~~-->
-        <a name="page_top"></a>
         <header class="__header">
+            <a name="page_top"></a>
             <div class="container justify-content-center">
                 <div class="row">
-                    <a class="__header__title col-2 my-auto " href="../index.html">
-                        <span class=" col-2 my-auto ">MEMENTO</span>
-                    </a>
                     
-                    <nav class="d-none d-sm-inline-block col-6 offset-4">
+                    <span class=" my-auto col-lg-5 my-auto d-inline-block">
+                        <a class="__header__title" href="../index.html">MEMENTO</a>
+                        <span class="d-none d-sm-inline-block __header__secction__title my-auto">/Contact</span>
+                    
+                    </span>
+                    
+                    <nav class="d-none d-lg-inline-block offset-lg-2  col-5 p-0">
                         <ul class="__header__list">
                             <li>
                                 <a href="https://www.instagram.com/" target="_blank">
@@ -44,106 +47,146 @@
                                     <i class="fab fa-facebook-square" alt="Facebook logo"></i>
                                 </a>
                             </li>
-                            <li class=" d-none d-md-inline-block">
+                            <li>
                                 <a href="mailto:nicopj20@gmail.com" target="_blank"><i class="fa fa-envelope" alt="Send email logo"></i>
                                 </a>
                             </li>
-                            <li class="d-none d-md-inline-block">
+                            <li>
                                 <a href="https://wa.me/543515494995" target="_blank"><i class="fab fa-whatsapp" alt="Whatsapp logo"></i>
                                 </a>
                             </li>
                         </ul>
                     </nav>
                 </div>
+            
+                <!--NAVBAR MENU-->
+
+                <nav class="container d-none d-md-inline-block" id="__header__navbar_menu">
+                    <ul class=" d-inline-block">
+                        <li class="__header__navbar_menu__item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="../index.html">Home</a>
+                        </li>
+                        <li class="__header__navbar_menu__item deploy_trigger">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="../index.html#portfolio">Portfolio</a>
+                            <ul class="__header__navbar_menu__deploy_menu animate__animated animate__fadeIn animate__slowe">
+                                <li class="__header__navbar_menu__item">
+                                    <a href="./portrait.html">Portrait</a>
+                                </li>
+                                <li class="__header__navbar_menu__item">
+                                    <a href="./show.html">Show</a>
+                                </li>
+                                <li class="__header__navbar_menu__item">
+                                    <a href="./photojournalism.html">Photojournalism</a>
+                                </li>
+                                <li class="__header__navbar_menu__item">
+                                    <a href="./nature.html">Nature</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="__header__navbar_menu__item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="./aboutus.html">About Us</a>
+                        </li>
+                        <li class="__header__navbar_menu__item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="">Services</a>
+                        </li>
+                        <li class="__header__navbar_menu__item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="./contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+
             </div>
             <!--~~~MENU LATERAL~~~-->
-            <a class="menu-toggle rounded" href="#">
-            <i class="fas fa-bars"></i>
-            </a>
-            <nav id="sidebar-wrapper">
-                <ul class="sidebar-nav">
-                    <li class="sidebar-brand">
-                        <a class="js-scroll-trigger" rel=“nofollow” href="../index.html">MEMENTO</a>
-                    </li>
-                    <li class="sidebar-nav-item">
-                        <a class="js-scroll-trigger" rel=“nofollow” href="../index.html">Home</a>
-                    </li>
-                    <!--Dropdown-->
-                    <li class="sidebar-nav-item">
-                        <div class="dropleft dropdown_sidebar">
-                            <button type="button" class="dropdown_arrow" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span span class="fas fa-caret-left"></span>
-                            </button>
-                            <div id="dropdown-submenu" class="dropdown-menu">
-                                <a class="dropdown-item" href="./portrait.html">Portrait</a>
-                                <a class="dropdown-item" href="./show.html">Show</a>
-                                <a class="dropdown-item" href="./photojournalism.html">Photojournalism</a>
-                                <a class="dropdown-item" href="./nature.html">Nature</a>
+            <div class="d-inline-block d-md-none">
+                <a class="menu-toggle rounded" href="#">
+                <i class="fas fa-bars"></i>
+                </a>
+                <nav id="sidebar-wrapper">
+                    <ul class="sidebar-nav">
+                        <li class="sidebar-brand">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="../index.html">MEMENTO</a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="../index.html">Home</a>
+                        </li>
+                        <!--Dropdown-->
+                        <li class="sidebar-nav-item">
+                            <div class="dropleft dropdown_sidebar">
+                                <button type="button" class="dropdown_arrow" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span span class="fas fa-caret-left"></span>
+                                </button>
+                                <div id="dropdown-submenu" class="dropdown-menu">
+                                    <a class="dropdown-item" href="./portrait.html">Portrait</a>
+                                    <a class="dropdown-item" href="./show.html">Show</a>
+                                    <a class="dropdown-item" href="./photojournalism.html">Photojournalism</a>
+                                    <a class="dropdown-item" href="./nature.html">Nature</a>
+                                </div>
+                                <button type="button"><a class="js-scroll-trigger dropdown_btn" href="../index.html#portfolio">Portfolio</a></button>
                             </div>
-                            <button type="button"><a class="js-scroll-trigger dropdown_btn" href="../index.html#portfolio">Portfolio</a></button>
-                        </div>
-                    </li>
-                    <li class="sidebar-nav-item">
-                        <a class="js-scroll-trigger" rel=“nofollow” href="">About Us</a>
-                    </li>
-                    <li class="sidebar-nav-item">
-                        <a class="js-scroll-trigger" rel=“nofollow” href="">Services</a>
-                    </li>
-                    <li class="sidebar-nav-item">
-                        <a class="js-scroll-trigger" rel=“nofollow” href="./contact.html">Contact us</a>
-                    </li>
-                </ul>
-            </nav>
+                        </li>
+                        <li class="sidebar-nav-item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="./aboutus.html">About Us</a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="">Services</a>
+                        </li>
+                        <li class="sidebar-nav-item">
+                            <a class="js-scroll-trigger" rel=“nofollow” href="./contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
             <!--~~~FORM~~~-->
         <main class="__contact--background">
-            <div class="container __contact__form">
+            <div class="container __contact__form animate__animated animate__fadeIn animate__slower">
                 <div class="row">
-                    <div class=" d-none d-lg-inline-block col-lg-6 __form__picture"></div>
-                        <div class="col-12 col-lg-6">
+                    <div class=" d-none d-lg-inline-block col-lg-6 __form__picture">
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="row justify-content-center">
+                            <h1 class="col-12 __form__title">Leave us your message!</h1>
+                        </div>
+                        <form form action="../views/answer.html" method="POST" enctype="application/x-www-form-urlencoded">
                             <div class="row justify-content-center">
-                                <h1 class="col-12 __form__title">Leave us your message!</h1>
-                            </div>
-                            <form form action="./answer.html" method="POST" enctype="application/x-www-form-urlencoded">
-                                <div class="row justify-content-center">
-                                    <div class="col-12  col-lg-7 d-flex justify-content-center mb-3">
-                                        <div class=" __form__left ">
-                                            <input class="__form__input--style" type="text" placeholder="Name" name="name">
-                                            <input class="__form__input--style" type="email" placeholder="Email" name="email">
-                                            <input class="__form__input--style" type="text" placeholder="Phone" name="phone">
+                                <div class="col-12  col-lg-7 d-flex justify-content-center mb-3">
+                                    <div class=" __form__left ">
+                                        <input class="__form__input--style" type="text" placeholder="Name" name="name">
+                                        <input class="__form__input--style" type="email" placeholder="Email" name="email">
+                                        <input class="__form__input--style" type="text" placeholder="Phone" name="phone">
 
-                                                <select class="__form__select--style" name="Reason">
-                                                    <option disabled="disabled" selected>Reason for contact</option>
-                                                    <option value="article">Articles</option>
-                                                    <option value="assignments">Assignments</option>
-                                                    <option value="info">Need information</option>
-                                                    <option value="product">Products</option>
-                                                    <option value="claim">Claim</option>
-                                                </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-7 d-flex justify-content-center">
-                                        <div>
-                                            <label for="check">Where did you hear about us?</label>
-                                            <ul class="__form__checkbox">
-                                                <li><input class="form-check-input" type="checkbox" name="check" id="check" value="insta">Instagram</li>
-                                                <li><input class="form-check-input" type="checkbox" name="check" id="check" value="face">Facebookas</li>
-                                                <li><input class="form-check-input" type="checkbox" name="check" id="check" value="mag">Magazine</li>
-                                                <li><input class="form-check-input" type="checkbox" name="check" id="check" value="friend">From a friend</li>
-                                                <li><input class="form-check-input" type="checkbox" name="check" id="check" value="natg">National Geografic</li>
-                                                <li><input class="form-check-input" type="checkbox" name="check" id="check" value="other">Other</li>
-                                            </ul>
-                                        </div>
+                                            <select class="__form__select--style" name="Reason">
+                                                <option disabled="disabled" selected>Reason for contact</option>
+                                                <option value="article">Articles</option>
+                                                <option value="assignments">Assignments</option>
+                                                <option value="info">Need information</option>
+                                                <option value="product">Products</option>
+                                                <option value="claim">Claim</option>
+                                            </select>
                                     </div>
                                 </div>
-                                <div class="row justify-content-center p-4">
-                                    <textarea class="__form__textarea--style" rows="5" cols="140" placeholder="Write your message here" id="mensaje" name="mensaje"></textarea>
+                                <div class="col-12 col-lg-7 d-flex justify-content-center">
+                                    <div>
+                                        <label for="check">Where did you hear about us?</label>
+                                        <ul class="__form__checkbox">
+                                            <li><input class="form-check-input" type="checkbox" name="check" id="check" value="insta">Instagram</li>
+                                            <li><input class="form-check-input" type="checkbox" name="check" id="check" value="face">Facebookas</li>
+                                            <li><input class="form-check-input" type="checkbox" name="check" id="check" value="mag">Magazine</li>
+                                            <li><input class="form-check-input" type="checkbox" name="check" id="check" value="friend">From a friend</li>
+                                            <li><input class="form-check-input" type="checkbox" name="check" id="check" value="natg">National Geografic</li>
+                                            <li><input class="form-check-input" type="checkbox" name="check" id="check" value="other">Other</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="row justify-content-center">
-                                    <input class="btn btn-light m-3" rel=“nofollow” type="submit" name="boton" value="SEND">
-                                    <input class="btn btn-light m-3" type="reset" name="boton_r" value="CLEAN BOARD">
-                                </div>
-                            </form>
+                            </div>
+                            <div class="row justify-content-center p-4">
+                                <textarea class="__form__textarea--style" rows="5" cols="140" placeholder="Write your message here" id="mensaje" name="mensaje"></textarea>
+                            </div>
+                            <div class="row justify-content-center">
+                                <input class="btn btn-light m-3" rel=“nofollow” type="submit" name="boton" value="SEND">
+                                <input class="btn btn-light m-3" type="reset" name="boton_r" value="CLEAN BOARD">
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>

@@ -10,8 +10,9 @@
         (X)Solucionar menu hamburguesa en todas la pag menos el index, el menu queda muy abajo
 
 ()Diseñar una pag de servicios
-()Pagina about us <<<!IMPORTANTE
-()Página error 403
+(X)Pagina about us <<<!IMPORTANTE
+    (X)Acordeon con imagen
+(X)Página error 403
 (X)Página shows <<<!IMPORTANTE
     (X)Carrusel con iconos de las mismas imagenes
     (X)Agregar countdown del proximo evento a cubrir

@@ -8,7 +8,7 @@
     font-style: oblique;
 
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: $bootstrap-sm) {
     #__show__title{
         font-size: 1.6rem;
     }
@@ -97,6 +97,12 @@
     .__show__countdown__logo{
         width: 18vw;
         height: auto;
+    }
+    @media only screen and (max-width: $bootstrap-sm) {
+        .__show__countdown__logo{
+            width: 30vw;
+            height: auto;
+        }
     }
 }
 
