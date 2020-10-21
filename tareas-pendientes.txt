@@ -1,7 +1,7 @@
 <<<<<<<<TAREAS PENDIENTES>>>>>>>>
 
 
-    <<<Contenido>>>
+<<<Contenido>>>
     (X)Pagina about us <<<!IMPORTANTE
         (X)Acordeon con imagen
     (X)Página Photojournalism
@@ -20,7 +20,7 @@
         (X)Agregar countdown del proximo evento a cubrir
     ()Diseñar una pag de servicios
 
-    <<<Correciones>>>
+<<<Correciones>>>
     (X)Correjir el boton de scroll en todas las paginas, solo funciona en el index
     (X)Agregar Droopdown en la opcion portfolio del menú desplegable <<<!IMPORTANTE
     (X)Corregir titulos en los headers 
@@ -30,10 +30,18 @@
     (X)Agregar :hover al dropdown de portfolio
     (X)Solucionar menu hamburguesa en todas la pag menos el index, el menu queda muy abajo
 
-    <<<Para aprender>>>
+    <<<GT metrix>>>>
+    (X)Optimizar y escalar imagenes
+    (X)Re ubicar el orden de los pedidos de <scrips> para que carguen primero las cosas mas importantes
+    (X)Investigar sobre Leverage browser caching y editar el archivo .htacces
+    ()Investigar sobre los ARIA de accesibilidad
+
+
+<<<Para aprender>>>
     (X)Galeria de fotos que habran modales con la foto completa
     (X)Galeria carrusel con los iconos pequeños de las imagenes debajo
     (X)Agregar galerias que cambien el fondo con javascript
+    (X)Hacer funcionar la pag 404
     ()Agregar propiedad fixed al nav con javascript
     ()Solucionar error de mi javascript para la Loading page
     ()Agregar mapa googlemaps
